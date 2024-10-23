@@ -1,0 +1,101 @@
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  width: 100%;
+  height: 22rem;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+  .intro {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    color: #4e1a1a;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 20px;
+  }
+
+.welcome {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  color: #2c2b2b;
+  margin-bottom: 30px;
+  padding: 20px; 
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.heading {
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0a5608;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.mission, .what-we-do, .vision, .why-farmers-help {
+  font-family: "Dancing Script", cursive;
+  font-size: 16px;
+  color: #8c4747;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  font-family: "Alex Brush", cursive;
+  padding: 10px;
+  padding-left: 5%;
+  border-bottom: 1px solid #ccc;
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.call-to-action {
+  font-size: 18px;
+  font-weight: bold;
+  color: #411a1a;
+  margin-bottom: 20px;
+  padding: 15px 30px; 
+  background-color: #ccf0be; 
+  border-radius: 10px;
+  text-align: center; 
+  display: inline-block; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.contact-info {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+  border-top: 1px solid #ccc; 
+  padding-top: 10px; 
+  text-align: center; 
+  margin: 20px auto; 
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
